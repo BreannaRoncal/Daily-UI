@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  background-color: #fcfcfc;
+  border: 10px solid black;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+}
+
+.contact {
+  border: 4px solid black;
+}
+
+img {
+  height: 5rem;
+  border: 2px solid black;
+}
+
+li {
+  list-style: none;
+}
