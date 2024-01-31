@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Credit Card Checkout</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>My Company</h1>
+      <h2>Credit Card Authorization</h2>
+      <form>
+        <!-- card type-->
+        <div class="payment-method">
+          <input type="radio" id="visa" name="card-type" value="VISA" />
+          <label for="visa">VISA</label>
+          <input
+            type="radio"
+            id="mastercard"
+            name="card-type"
+            value="MasterCard"
+          />
+          <label for="mastercard">Mastercard</label>
+        </div>
+        <!-- name on card -->
+        <div class="name form-input">
+          <label for="name">Name on Card</label><br />
+          <input
+            type="text"
+            id="name-on-card"
+            name="name"
+            placeholder="Johnny Appleseed"
+          />
+        </div>
+        <!-- email -->
+        <div class="email form-input">
+          <label for="email">Email</label><br />
+          <input
+            type="text"
+            id="user-email"
+            name="email"
+            placeholder="Johnnyappleseed@gmail.com"
+          />
+        </div>
+        <!-- credit card number -->
+        <div class="credit-card-number form-input">
+          <label for="credit-card">Credit Card Number</label><br />
+          <input
+            type="number"
+            id="cc"
+            name="credit-card"
+            placeholder="123456789"
+          />
+        </div>
+        <!-- credit card expiration -->
+        <div class="cc-expiration form-input">
+          <label for="credit-card-exp">MM/YYYY</label><br />
+          <input
+            type="number"
+            id="cc-exp"
+            name="credit-card-exp"
+            placeholder="12/2099"
+          />
+        </div>
+        <!-- credit card csv -->
+        <div class="cc-csv form-input">
+          <label for="csv">CSV</label><br />
+          <input type="number" id="cc-csv" name="csv" placeholder="123" />
+        </div>
+        <!-- Submit -->
+        <div class="submit-button form-input">
+          <input class="submit-style" type="submit" value="submit" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
